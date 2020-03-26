@@ -6,7 +6,7 @@ variable "VSPHERE_USER" {}
 variable "VSPHERE_PASSWORD" {}
 variable "VSPHERE_SERVER" {}
 provider "vsphere" {
-    user               = var.VSPHERE_USER
+  user                 = var.VSPHERE_USER
   password             = var.VSPHERE_PASSWORD
   vsphere_server       = var.VSPHERE_SERVER
   allow_unverified_ssl = true
